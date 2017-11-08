@@ -35,38 +35,38 @@ cur_dir=$( pwd )
 software=(Shadowsocks-Python ShadowsocksR Shadowsocks-Go Shadowsocks-libev)
 
 libsodium_file="libsodium-1.0.15"
-libsodium_url="https://github.com/jedisct1/libsodium/releases/download/1.0.15/libsodium-1.0.15.tar.gz"
+libsodium_url="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/libsodium-1.0.15.tar.gz"
 
 mbedtls_file="mbedtls-2.6.0"
-mbedtls_url="http://dl.teddysun.com/files/mbedtls-2.6.0-gpl.tgz"
+mbedtls_url="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/mbedtls-2.6.0-gpl.tgz"
 
 shadowsocks_python_file="shadowsocks-master"
-shadowsocks_python_url="https://github.com/shadowsocks/shadowsocks/archive/master.zip"
+shadowsocks_python_url="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Python/shadowsocks-master.zip"
 shadowsocks_python_init="/etc/init.d/shadowsocks-python"
 shadowsocks_python_config="/etc/shadowsocks-python/config.json"
-shadowsocks_python_centos="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks"
-shadowsocks_python_debian="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-debian"
+shadowsocks_python_centos="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Python/shadowsocks"
+shadowsocks_python_debian="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Python/shadowsocks-debian"
 
 shadowsocks_r_file="shadowsocksr-manyuser"
-shadowsocks_r_url="https://github.com/teddysun/shadowsocksr/archive/manyuser.zip"
+shadowsocks_r_url="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/ShadowsocksR/shadowsocksr-manyuser.zip"
 shadowsocks_r_init="/etc/init.d/shadowsocks-r"
 shadowsocks_r_config="/etc/shadowsocks-r/config.json"
-shadowsocks_r_centos="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR"
-shadowsocks_r_debian="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR-debian"
+shadowsocks_r_centos="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/ShadowsocksR/shadowsocksR"
+shadowsocks_r_debian="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/ShadowsocksR/shadowsocksR-debian"
 
 shadowsocks_go_file_64="shadowsocks-server-linux64-1.2.1"
-shadowsocks_go_url_64="http://dl.teddysun.com/shadowsocks/shadowsocks-server-linux64-1.2.1.gz"
+shadowsocks_go_url_64="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Go/shadowsocks-server-linux64-1.2.1.gz"
 shadowsocks_go_file_32="shadowsocks-server-linux32-1.2.1"
-shadowsocks_go_url_32="http://dl.teddysun.com/shadowsocks/shadowsocks-server-linux32-1.2.1.gz"
+shadowsocks_go_url_32="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Go/shadowsocks-server-linux32-1.2.1.gz"
 shadowsocks_go_init="/etc/init.d/shadowsocks-go"
 shadowsocks_go_config="/etc/shadowsocks-go/config.json"
-shadowsocks_go_centos="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go"
-shadowsocks_go_debian="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go-debian"
+shadowsocks_go_centos="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Go/shadowsocks-go"
+shadowsocks_go_debian="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-Go/shadowsocks-go-debian"
 
 shadowsocks_libev_init="/etc/init.d/shadowsocks-libev"
 shadowsocks_libev_config="/etc/shadowsocks-libev/config.json"
-shadowsocks_libev_centos="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev"
-shadowsocks_libev_debian="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian"
+shadowsocks_libev_centos="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-libev/shadowsocks-libev"
+shadowsocks_libev_debian="https://github.com/Sandynoob/shadowsocks-4-for-1-/blob/master/Shadowsocks-libev/shadowsocks-libev-debian"
 
 # Stream Ciphers
 common_ciphers=(
