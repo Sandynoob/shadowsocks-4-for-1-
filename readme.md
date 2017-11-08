@@ -1,9 +1,9 @@
-shadowsocks-4-for-1-
+shadowsocks-4-for-1-          
 sudo -i获取账户root权限
 依次输入
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Sandynoob/shadowsocks-4-for-1-/master/shadowsocks-all.sh
-chmod +x shadowsocks-all.sh
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Sandynoob/shadowsocks-4-for-1-/master/shadowsocks-all.sh              
+chmod +x shadowsocks-all.sh             
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log            
 卸载
 ./shadowsocks-all.sh uninstall
 
