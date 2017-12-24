@@ -1,7 +1,7 @@
 shadowsocks-4-for-1-          
 sudo -i获取账户root权限
 依次输入
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Sandynoob/shadowsocks-4-for-1-/master/shadowsocks-all.sh              
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/Sandynoob/shadowsocks-4-for-1-/master/shadowsocks-all.sh （如果是centos7 先输入 yum install wget -y）             
 chmod +x shadowsocks-all.sh             
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log            
 卸载
